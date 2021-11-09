@@ -1,0 +1,101 @@
+@media (min-width: 641px) and (max-width: 1199px) {
+  .menu {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .menu-burger {
+    display: block;
+    width: 22px;
+    height: 12px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+  }
+  
+  .menu-burger::after {
+    content: "";
+    display: block;
+    width: 22px;
+    height: 3px;
+    margin-top: 15px;
+    background-color: #fff;
+  }
+
+  .container {
+    position: relative;
+    top: 317px;
+    padding-left: 33px;
+    padding-right: 33px;
+  }
+  .main {
+    width: 56%;
+  }
+
+  .trends-item {
+    width: 49.8%;
+  }
+
+  .trends-item:nth-child(1), .trends-item:nth-child(2) {
+    margin-bottom: 3px;
+  }
+
+  .inner-article {
+    
+  }
+
+  .inner-image {
+    width: 100%;
+  }
+
+  .article-image {
+    width: 100%;
+    margin-bottom: 17px;
+  }
+
+  .flex-container {
+    width: 47.8%;
+  }
+
+  .flex-container:nth-child(3) {
+    margin-top: 30px;
+  }
+
+  .inner-items-social {
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .popup-container {
+    width: 51%;
+    font-size: 10px;
+  }
+
+  .popup-title {
+    font-size: 1.6em;
+  }
+
+  .aside-title {
+    margin-bottom: 2.5em;
+  }
+
+  .popup-form {
+    height: 100%;
+  }
+
+  .form-hint {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
+
+  .select {
+    height: 4em;
+    margin-top: 0;
+    font-size: 1.2em;
+    
+  }
+
+
+}
+
+
