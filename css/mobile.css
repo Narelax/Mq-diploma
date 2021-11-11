@@ -1,0 +1,22 @@
+@media (max-width: 640px) {
+  .inner-header {
+    flex-direction: column;
+  }
+
+  .menu-burger {
+    order: 1;
+  }
+
+  .trends-item {
+    width: 100%;
+    margin-bottom: 3px;
+  }
+
+  .flex-wrapper {
+    flex-direction: column;
+  }
+
+
+
+
+}

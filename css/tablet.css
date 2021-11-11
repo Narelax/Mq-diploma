@@ -1,4 +1,4 @@
-@media (min-width: 641px) and (max-width: 1199px) {
+@media (max-width: 1199px) {
   .menu {
     opacity: 0;
     visibility: hidden;
@@ -20,10 +20,9 @@
     margin-top: 15px;
     background-color: #fff;
   }
-
+}
+  @media (min-width: 641px) and (max-width: 1199px) {
   .container {
-    position: relative;
-    top: 317px;
     padding-left: 33px;
     padding-right: 33px;
   }
@@ -94,7 +93,6 @@
     font-size: 1.2em;
     
   }
-
 
 }
 
