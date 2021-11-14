@@ -14,8 +14,9 @@
 }
 
 .popup-container {
-  position: relative;
+  position: absolute;
   width: 32.5%;
+  max-width: 388px;
   padding: 50px 30px;
   background: #fff;
 

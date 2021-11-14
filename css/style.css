@@ -11,13 +11,13 @@ ul {
 
   @font-face {
     font-family: "OpenSans-Regular";
-    src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff");
+    src: url("../fonts/OpenSans-Regular.woff");
     font-weight: normal;
    }
   
   @font-face {
     font-family: "OpenSans-Bold";
-    src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff");
+    src: url("../fonts/OpenSans-Bold.woff");
     font-weight: bold;
   }
   
@@ -28,7 +28,7 @@ ul {
     padding-top: 28px;
     padding-bottom: 125px;
     
-    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
+    background-image: url("../images/banner-bg.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -61,7 +61,6 @@ ul {
   .inner-header {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
   }
   
   .logo {
@@ -80,6 +79,7 @@ ul {
   
   .menu-items {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     
     list-style-type: none;
@@ -235,7 +235,7 @@ ul {
   
   .article-image {
     width: 380px;
-    height: 295x;
+    height: 295px;
   }
   
   
@@ -390,7 +390,7 @@ ul {
   }
   
   .form-button {
-    position: absolute;
+    position: relative;
     width: 50px;
     height: 50px;
     
@@ -410,7 +410,7 @@ ul {
     
     width: 50px;
     height: 50px;
-    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/search.svg");
+    background-image: url("../svg/search.svg");
     background-size: 20px 20px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -656,18 +656,20 @@ ul {
     height: 30px;
     text-decoration: none;
     color: inherit;
+    transition: background-size 0.3s;
   }
   
   .social-icon-twitter {
-     background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg");
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: 25px 25px;
+    background-image: url("../svg/004-twitter.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 25px 25px;
   }
   
   .social-icon:hover {
-       background-size: 30px 30px;
-       opacity: 0.5; 
+    background-size: 30px 30px;
+    opacity: 0.5; 
+    transition: background-size 0.3s;
   }
   
   .name-item {
@@ -677,32 +679,31 @@ ul {
   }
   
   .social-icon-pinterest {
-      margin-right: 20px;
+    margin-right: 20px;
     
-      background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg");
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: 20px 20px;
+    background-image: url("../svg/001-pinterest.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 20px 20px;
   }
   
   .social-icon-facebook {
-      margin-right: 20px;
-    
-      background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg");
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: 20px 20px;
+    margin-right: 20px;
+    background-image: url("../svg/002-facebook-logo.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 20px 20px;
   }
   
   .social-icon-instagram {
-      background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg");
+      background-image: url("../svg/005-instagram.svg");
      background-repeat: no-repeat;
      background-position: center center;
      background-size: 20px 20px;
   }
   
   .social-icon-tumblr {
-      background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg");
+      background-image: url("../svg/003-tumblr.svg");
      background-repeat: no-repeat;
      background-position: center center;
      background-size: 20px 20px;

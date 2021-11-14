@@ -13,8 +13,8 @@
   <header class="header">
     <div class="wrapper inner-header">
       <div class="logo">
-        <a href="#">
-          <img src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg" class="image-logo" alt="Noemi">
+        <a class="logo-link" href="#">
+          <img src="svg/noemi-logo.svg" class="image-logo" alt="Noemi">
         </a>
       </div>
         <nav class="menu">
@@ -31,10 +31,7 @@
           <span class="burger-span"></span>
         </div>
     </div>
-    <h1 class="slogan">
-      Блог о творчестве, спорте,
-  и образе жизни
-    </h1> 
+    <h1 class="slogan">Блог о творчестве, спорте, и образе жизни</h1> 
   </header>
 
   <article class="trends">
@@ -84,34 +81,28 @@
               </aside>
         </li>
     </ul>
-
-
     </article>
 
   <div class="wrapper container">
-
-
     <div class="flex-wrapper">
-   
-     <main class="main">
+      <main class="main">
 
-      <article class="inner-article">
-        <div class="inner-image">
-          <img class="article-image" src="images/last-post1.jpg" alt="Sunrise">
-        </div>
-        <div class="text">
-          <header class="article-header">
-            <ul class="article-menu">
-              <li class="item"><a class="link tag-aside" href="#">Travel</a></li>
-            <li class="item"><a class="link tag-aside" href="#">Health</a></li>
-            </ul>
+        <article class="inner-article">
+          <div class="inner-image">
+            <img class="article-image" src="images/last-post1.jpg" alt="Sunrise">
+          </div>
+          <div class="text">
+            <header class="article-header">
+              <ul class="article-menu">
+                <li class="item"><a class="link tag-aside" href="#">Travel</a></li>
+              <li class="item"><a class="link tag-aside" href="#">Health</a></li>
+              </ul>
                  <h2 class="heading"><a class="link link-heading" href="#">10 мест, ради которых стоит
   проснуться на рассвете</a></h2>
                 <time class="data" datetime="2019-06-10">10 июня 2019</time>
                 <span class="author">Неизвестный автор</span>
         </header>
-                <p class="paragraph">Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города… Музеи еще закрыты. Что посмотреть?</p>    
-          
+                <p class="paragraph">Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города… Музеи еще закрыты. Что посмотреть?</p>             
         </div>
       </article>
   
@@ -254,13 +245,13 @@
       </div>
       </section>    
           <form class="inner-search">
-            <label>
+            <label class="label-search">
               <span class="field">Поле поиска</span>
               <input class="form-input" type="search" placeholder="Найти...">
-              <button class="form-button">
-                <span class="field">Кнопка поиска</span>
-              </button>
-            </label>              
+            </label>
+            <button class="form-button">
+              <span class="field">Кнопка поиска</span>
+            </button>              
           </form>
       <section class="section-mailing">    
         <h3 class="aside-title mailing"><a class="link" href="#">Рассылка</a></h3>    
@@ -304,8 +295,9 @@
         <ul class="products-inner">
           <li class="flex-container">
             <picture class="picture-product">
+              <source media="(max-width: 640px)" srcset="images/shop-item-mobile1.jpg">              
+              <source media="(max-width: 1200px)" srcset="images/shop-item-tablet1.jpg">
               <img class="product" alt="Наши подушки" src="images/shop-item-desk1.jpg">
-              <source media="(min-width: )"srcset="">
             </picture>
             <section class="discription-inner">
               <h2 class="heading">подушки на диван</h2>
@@ -321,8 +313,9 @@
           </li>
           <li class="flex-container">
             <picture class="picture-product">
+              <source media="(max-width: 640px)" srcset="images/shop-item-mobile2.jpg">              
+              <source media="(max-width: 1200px)" srcset="images/shop-item-tablet2.jpg">
               <img class="product" alt="Игрушка зайчик" src="images/shop-item-desk2.jpg">
-              <source media="(min-width: )"srcset="">
             </picture>
             <section class="discription-inner">
               <h2 class="heading">кукла "зайчик"</h2>
@@ -335,8 +328,9 @@
           </li>
           <li class="flex-container">
             <picture class="picture-product">
+              <source media="(max-width: 640px)" srcset="images/shop-item-mobile3.jpg">              
+              <source media="(max-width: 1200px)" srcset="images/shop-item-tablet3.jpg">
               <img class="product" alt="Рамка" src="images/shop-item-desk3.jpg">
-              <source media="(min-width: )"srcset="">
             </picture>
             <section class="discription-inner">
               <h2 class="heading">шестиугольная рамка</h2>
@@ -387,7 +381,6 @@
     </footer>
 
     <div class="popup">
-     
       <div class="popup-container">
         <a href="#">
           <svg class="popup-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 441 441"><path fill="#fff" stroke="#000" d="M220.336 170.564l.353.353.354-.353L390.288 1.318l49.796 49.773-169.269 169.245-.353.354.353.354 169.269 169.245-49.796 49.796-169.245-169.269-.354-.353-.353.353-169.27 169.269-49.748-49.796 169.245-169.245.353-.354-.353-.354L1.318 51.067 51.09 1.318l169.246 169.246z"/></svg>
@@ -401,7 +394,6 @@
               <option>Раз в неделю</option>
               <option>Редко</option> 
             </select>
-
           </label>
           <div class="form-radio">
             <span class="form-hint">Вы подписны на e-mail рассылку?</span>
@@ -423,5 +415,6 @@
         </form>
       </div>
     </div>
+
 </body>
 </html>
