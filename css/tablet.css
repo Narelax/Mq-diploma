@@ -3,6 +3,10 @@
     display: none;
   }
 
+  .burger-link {
+    display: block;
+  }
+
   .menu-burger {
     display: flex;
     align-self: center;
