@@ -1,4 +1,4 @@
-@media (max-width: 1199px) {  
+@media (max-width: 1199px) {
   .menu {
     display: none;
   }
@@ -28,7 +28,6 @@
     height: 3px;
     background-color: #fff;
   }
-
 
   .inner-article::after {
     content: "";
@@ -61,14 +60,15 @@
     width: 49.8%;
   }
 
-  .trends-item:nth-child(1), .trends-item:nth-child(2) {
+  .trends-item:nth-child(1),
+  .trends-item:nth-child(2) {
     margin-bottom: 3px;
   }
 
   .inner-article {
     flex-direction: column;
     align-items: center;
-  } 
+  }
 
   .inner-image {
     width: 100%;
@@ -128,8 +128,6 @@
   .select {
     height: 4em;
     margin-top: 0;
-    font-size: 1.2em; 
+    font-size: 1.2em;
   }
 }
-
-
