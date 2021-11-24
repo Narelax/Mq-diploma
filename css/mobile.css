@@ -4,11 +4,11 @@
     max-width: 640px;
     align-items: center;
   }
- 
+
   .header {
     background-image: url("../images/banner-mobile.jpg");
   }
-  
+
   .logo {
     width: 100%;
     height: auto;
@@ -34,7 +34,7 @@
     align-self: flex-end;
     justify-content: flex-end;
   }
-  
+
   .inner-header {
     flex-direction: column;
   }
@@ -115,11 +115,10 @@
     width: 100vw;
   }
 
-  .flex-container:nth-child(n+2) {
+  .flex-container:nth-child(n + 2) {
     margin-top: 2em;
   }
 
-  
   .inner-items-social {
     justify-content: center;
     padding-left: 0;
@@ -127,12 +126,9 @@
   }
 
   .popup-container {
-    top: 8vh;
-    bottom: 7vh;
-    right: 4vw;
-    left: 4vw;
+    /*top: 8vh;
+    bottom: 7vh;*/
     width: 92vw;
-    height: 85vh;
-     max-width: 330px;
+    max-width: 330px;
   }
 }

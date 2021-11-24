@@ -9,17 +9,16 @@
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.8);
-  opacity: 0;
-  visibility: hidden;
+  /*opacity: 0;
+  visibility: hidden;*/
 }
 
 .popup-container {
   position: absolute;
-  width: 32.5%;
+  width: 33%;
   max-width: 388px;
   padding: 50px 30px;
   background: #fff;
-
 }
 
 .popup-icon {
@@ -42,7 +41,6 @@
   margin-bottom: 12px;
   font-size: 14px;
 }
-
 
 .select {
   width: 100%;
@@ -112,4 +110,3 @@
   height: 1px;
   clip: rect(1px 1px 1px 1px);
 }
-

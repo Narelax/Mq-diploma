@@ -10,13 +10,13 @@ ul {
 }
 
 @font-face {
-  font-family: "OpenSans-Regular";
+  font-family: "OpenSans";
   src: url("../fonts/OpenSans-Regular.woff");
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "OpenSans-Bold";
+  font-family: "OpenSans";
   src: url("../fonts/OpenSans-Bold.woff");
   font-weight: bold;
 }
@@ -88,14 +88,15 @@ ul {
   text-transform: uppercase;
 }
 
-.menu-item:nth-child(n + 2) {
+.menu-item-margin {
   margin-left: 35px;
 }
 
 .link {
   text-decoration: none;
   color: inherit;
-  font-family: "OpenSans-Bold";
+  font-family: "OpenSans";
+  font-weight: bold;
 }
 
 .link:hover {
@@ -104,7 +105,8 @@ ul {
 
 .menu-link {
   font-size: 13px;
-  font-family: "OpenSans-Regular";
+  font-family: "OpenSans";
+  font-weight: normal;
 }
 
 .menu-item:hover {
@@ -126,7 +128,8 @@ ul {
   font-size: 45px;
   text-align: center;
   text-transform: uppercase;
-  font-family: "OpenSans-Bold";
+  font-family: "OpenSans";
+  font-weight: bold;
 }
 
 .trends {
@@ -154,10 +157,10 @@ ul {
   background-color: #000000;
 }
 
-.first::after,
-.second::after,
-.third::after,
-.fourth::after {
+.img-plant::after,
+.img-cheese::after,
+.img-mountains::after,
+.img-lemons::after {
   content: " ";
   position: absolute;
   z-index: 0;
@@ -174,13 +177,14 @@ ul {
   opacity: 0.5;
 }
 
-.first::after {
+.img-plant::after {
   background-image: url("../images/trend1.jpg");
 }
 
 .aside-inner {
   position: relative;
   z-index: 1;
+  width: 100%;
   border: 3px solid #b59f5b;
   padding-top: 30px;
   padding-left: 30px;
@@ -200,15 +204,15 @@ ul {
   margin-top: 12px;
 }
 
-.second::after {
+.img-cheese::after {
   background-image: url("../images/trend2.jpg");
 }
 
-.third::after {
+.img-mountains::after {
   background-image: url("../images/trend3.jpg");
 }
 
-.fourth::after {
+.img-lemons::after {
   background-image: url("../images/trend4.jpg");
 }
 
@@ -230,7 +234,7 @@ ul {
   justify-content: space-between;
 }
 
-.inner-article:nth-child(n + 2) {
+.inner-article-margin {
   margin-top: 55px;
 }
 
@@ -266,8 +270,9 @@ ul {
 
 .heading {
   margin-bottom: 25px;
-  font-family: "OpenSans-Bold";
+  font-family: "OpenSans";
   font-size: 20px;
+  font-weight: bold;
   text-transform: uppercase;
   line-height: 1.2;
 }
@@ -279,7 +284,8 @@ ul {
 }
 
 .author {
-  font-family: "OpenSans-Bold";
+  font-family: "OpenSans";
+  font-weight: bold;
   font-size: 12px;
 }
 
@@ -335,7 +341,7 @@ ul {
   display: flex;
 }
 
-.inner-post:nth-child(n + 2) {
+.inner-post {
   margin-bottom: 17px;
 }
 
@@ -355,7 +361,8 @@ ul {
 .title-new-post {
   font-size: 14px;
   text-transform: uppercase;
-  font-family: "OpenSans-Bold";
+  font-family: "OpenSans";
+  font-weight: bold;
 }
 
 .inner-search {

@@ -53,11 +53,12 @@
     padding-right: 33px;
   }
   .main {
-    width: calc(90% - 273px);
+    width: 56%;
+    margin-right: 35px;
   }
 
   .trends-item {
-    width: 49.8%;
+    width: calc(50% - 2px);
   }
 
   .trends-item:nth-child(1),
@@ -103,12 +104,11 @@
   }
 
   .popup-container {
-    top: 15vh;
+    /*top: 15vh;
     bottom: 10vh;
     right: 25vw;
     left: 25vw;
-    width: 50vw;
-    height: 61vh;
+    width: 50vw;*/
     font-size: 10px;
   }
 
