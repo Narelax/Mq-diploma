@@ -57,13 +57,13 @@
     margin-right: 35px;
   }
 
-  .trends-item {
-    width: calc(50% - 2px);
+  .trends-items {
+    gap: 3px;
   }
 
-  .trends-item:nth-child(1),
-  .trends-item:nth-child(2) {
-    margin-bottom: 3px;
+  .trends-item {
+    flex-basis: 49%;
+    flex-grow: 1;
   }
 
   .inner-article {
